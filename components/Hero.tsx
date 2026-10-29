@@ -3,7 +3,7 @@ import { business, directionsLink } from "@/lib/config";
 export default function Hero() {
   return (
     <section id="top" className="relative">
-      <div className="relative h-[78vh] min-h-[520px] w-full overflow-hidden">
+      <div className="relative h-[78vh] min-h-130 w-full overflow-hidden">
         {/* Static photo. Video hero is a Premium feature — deliberately absent. */}
         <img
           src={business.hero.src}
@@ -11,7 +11,7 @@ export default function Hero() {
           className="absolute inset-0 h-full w-full object-cover"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/35 via-ink/60 to-ink/92" />
+        <div className="absolute inset-0 bg-linear-to-b from-ink/35 via-ink/60 to-ink/92" />
 
         <div className="relative mx-auto flex h-full max-w-6xl flex-col justify-end px-5 pb-14 sm:pb-20">
           <p className="mb-3 text-xs uppercase tracking-[0.22em] text-cream/80">

@@ -83,7 +83,7 @@ export default function Contact() {
                 src={mapEmbedSrc()}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="h-[340px] w-full border-0 sm:h-[420px]"
+                className="h-85 w-full border-0 sm:h-105"
               />
             </div>
             <a
